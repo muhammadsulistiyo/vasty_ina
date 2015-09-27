@@ -1,0 +1,20 @@
+request 
+	vasty_connect :
+	{
+		"type" : "vasty_connect",
+		"vastu_code" : xxx
+	}
+response
+	jika device sudah tercatat diserver 
+	{
+		"status" : true,
+		"flower" : object_flower
+
+	}
+
+	jika device belum tercacat
+
+	{
+		"status" : false,
+
+	}

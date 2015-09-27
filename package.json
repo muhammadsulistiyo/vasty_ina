@@ -1,0 +1,19 @@
+{
+  "name": "PlantsService",
+  "version": "0.0.0",
+  "description": "Service for PlantMarket app",
+  "main": "index.js",
+  "scripts": {
+    "test": "make test"
+  },
+  "author": "Muhammad Sulistiyo",
+  "license": "BSD-2-Clause",
+  "dependencies": {
+    "express": "~4.13.3",
+    "socket.io": "~1.3.6",
+    "mongodb": "~2.0.43",
+    "mongoose": "~4.1.8",
+    "json-socket": "~0.1.2",
+    "connect": "~3.4.0"
+  }
+}
